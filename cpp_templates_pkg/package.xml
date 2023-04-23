@@ -1,11 +1,13 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>cpp_pkg</name>
+  <name>cpp_templates_pkg</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="matheus.soares@jacto.com.br">matheus</maintainer>
-  <license>TODO: License declaration</license>
+  <description>ROS 2 C++ templates package</description>
+  <maintainer email="matheussousasf@gmail.com">Matheus Sousa Soares</maintainer>
+  <license>Apache 2.0</license>
+
+  <depend>rclcpp</depend>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 

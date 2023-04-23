@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'python_pkg'
+package_name = 'py_templates_pkg'
 
 setup(
     name=package_name,
@@ -14,7 +14,7 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='matheus',
-    maintainer_email='matheus.soares@jacto.com.br',
+    maintainer_email='matheus@todo.todo',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
