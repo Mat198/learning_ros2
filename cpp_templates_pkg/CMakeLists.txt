@@ -13,12 +13,21 @@ set(ROS_DEPENDENCIES
   rclcpp
 )
 
-# Simple node install
+# Simple node build & install
 add_executable(simple_node src/simple_node.cpp)
 ament_target_dependencies(simple_node ${ROS_DEPENDENCIES})
 
 install(TARGETS
   simple_node
+  DESTINATION  lib/${PROJECT_NAME}
+)
+
+# Simple class node build & install
+add_executable(class_node src/simple_class_node.cpp)
+ament_target_dependencies(class_node ${ROS_DEPENDENCIES})
+
+install(TARGETS
+  class_node
   DESTINATION  lib/${PROJECT_NAME}
 )
 
