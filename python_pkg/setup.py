@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             "py_node = python_pkg.simple_node:main",
-            "class_py_node = python_pkg.class_node:main"
+            "class_py_node = python_pkg.class_node:main",
+            "complete_py_node = python_pkg.complete_node:main",
         ],
     },
 )
