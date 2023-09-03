@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>py_templates_pkg</name>
-  <version>0.0.0</version>
-  <description>ROS 2 Python templates package</description>
-  <maintainer email="matheussousasf@gmail.com">Matheus Sousa Soares</maintainer>
+  <name>python_pkg</name>
+  <version>0.0.1</version>
+  <description>Python package exemple.</description>
+  <maintainer email="matheussousasf@gmail.com">Matheus Sousa</maintainer>
   <license>Apache 2.0</license>
 
   <depend>rclpy</depend>
